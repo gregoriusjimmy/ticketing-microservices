@@ -6,8 +6,7 @@ import { currentUserRouter } from './routers/current-user'
 import { signinRouter } from './routers/signin'
 import { signoutRouter } from './routers/signout'
 import { signupRouter } from './routers/signup'
-import { errorHandler } from './middlewares/error-handler'
-import { NotFoundError } from './errors/not-found-error'
+import { errorHandler, NotFoundError } from '@gjticketing/common'
 import cookieSession from 'cookie-session'
 
 const app = express()
